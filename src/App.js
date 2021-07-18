@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Landing from "./components/Landing";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
-function App() {
+import Testimonials from "./components/Testimonials";
+import FitnessInstructor from "./components/FitnessClasses";
+
+// Font Awesome Style Sheet
+//import "@fortawesome/fontawesome-free/css/all.min.css";
+
+// Tailwind CSS Style Sheet
+import "./assets/styles/tailwind.css";
+
+export default function App() {
+  //bg-light-blue-500
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="text-white body-font">
+      <Navbar />
+      <Landing />
+      <Projects />
+      <Skills />
+
+      <FitnessInstructor />
+      <Testimonials />
+      <Contact />
+    </main>
   );
 }
-
-export default App;
