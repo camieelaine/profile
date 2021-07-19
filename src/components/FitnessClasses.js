@@ -6,14 +6,42 @@ import React from "react";
   TerminalIcon,
   UsersIcon,
 } from "@heroicons/react/solid";*/
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 //import SelfImprovementIcon from "@material-ui/icons/SelfImprovement";
 import Icon from '@material-ui/core/Icon';
 import { fitnessClasses } from "../data";
 
 export default function FitnessClasses() {
   return (
-    <section id="fitnessClasses" className="pb-20 bg-gray-100 mt-32">
+    <section id="fitnessClasses" className="pb-20 bg-blue-400 mt-32">
       <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen">
+        <div className="container max-w-7xl px-4">
+        <div className="flex flex-wrap relative z-50">
+        {fitnessClasses.map((fitnessClass) => (
+         <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+           <li className="px-6">
+          <Card>
+          <CardContent>
+
+          <Icon>{fitnessClass.icon}</Icon>
+       
+           
+            <img alt={fitnessClass.format} src={fitnessClass.image} />
+            <h1 color="gray">{fitnessClass.format}</h1>
+            <p color="gray">{fitnessClass.cert}</p>
+          </CardContent>
+         
+
+          </Card>
+          </li>
+          </div>
+          ))}
+        </div>
+        </div>
+        </div>
+        <div className="relative pt-16 pb-32 flex content-center items-center justify-center h-screen">
+      
         <div className="container max-w-7xl px-4">
           <div className="flex flex-wrap relative z-50">
             {fitnessClasses.map((fitnessClass) => (
@@ -22,7 +50,7 @@ export default function FitnessClasses() {
                   <div className="p-4 undefined">
                     <div className="p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-md rounded-full bg-red-500">
                       <span class="text-white text-xl leading-none">
-                      <Icon name="self_improvement" size="xl" />
+                      <Icon name="star" size="xl" />
                       
                         {/* <SelfImprovementIcon /> */}
                       </span>

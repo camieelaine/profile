@@ -3,7 +3,7 @@ import { CodeIcon } from "@heroicons/react/solid";
 import Icon from "@material-ui/core/Icon";
 //import SelfImprovementIcon from "@material-ui/react/icons/SelfImprovement";
 //import { SelfImprovement } from '@material-ui/icons';
-import { Alarm } from "@material-ui/icons";
+import { Code } from "@material-ui/icons";
 import React from "react";
 import { projects } from "../data";
 
@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20 text-gray-400">
           <span class="text-white text-xl leading-none">
-            <Alarm />
+            <Code />
           </span>
           <Icon name="self_improvement" size="xl" />
           {/* <Icon className="mx-auto inline-block w-10 mb-4" /> */}

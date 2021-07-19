@@ -1,3 +1,4 @@
+import Icon from '@material-ui/core/Icon';
 export const projects = [
     {
       title: "Behavioral Health QlikView Dashboard and data mart",
@@ -36,18 +37,21 @@ export const projects = [
   export const fitnessClasses = [
     {
       format: "Yoga",
-      image: require("./assets/img/CamieYoga.png"),
+      image: "./assets/img/CamieYoga.png",
       cert: "Yoga Alliance 200 hr RYT",
+      icon:"home",
     },
     {
       format: "Barre",
-      image: require("./assets/img/CamieBarre.jpeg"),
+      image: "./assets/img/CamieBarre.jpeg",
       cert: "Barre Above",
+      icon:"alarm",
     },
     {
       format: "Indoor Cycling",
       image: require("./assets/img/CamieCycle.png"),
       cert: "ACE Group Fitness Instructor",
+      icon:"directions-bike",
     },
   ];
   
