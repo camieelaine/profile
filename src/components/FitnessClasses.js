@@ -8,7 +8,6 @@ import React from "react";
 } from "@heroicons/react/solid";*/
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-//import SelfImprovementIcon from "@material-ui/icons/SelfImprovement";
 import Icon from '@material-ui/core/Icon';
 import { fitnessClasses } from "../data";
 
