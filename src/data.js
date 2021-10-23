@@ -38,7 +38,7 @@ export const projects = [
   export const fitnessClasses = [
     {
       format: "Yoga",
-      image: "./CamieYoga.png",
+      image: "./CamieYogaBW.png",
       cert: "Yoga Alliance 200 hr RYT",
       icon:"home",
     },
@@ -50,7 +50,7 @@ export const projects = [
     },
     {
       format: "Indoor Cycling",
-      image: "./CamieCycle.png",
+      image: "./CamieCycleBW.png",
       cert: "ACE Group Fitness Instructor",
       icon:"directions-bike",
     },

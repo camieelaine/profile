@@ -2501,6 +2501,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
 }
+/* .bg-gradient-to-r from-cyan-400  to-cyan-800 */
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgba(96, 165, 250, var(--tw-bg-opacity));

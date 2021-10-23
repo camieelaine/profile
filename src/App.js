@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
-import Testimonials from "./components/Testimonials";
-import FitnessInstructor from "./components/FitnessClasses";
+//import Testimonials from "./components/Testimonials";
+//import FitnessInstructor from "./components/FitnessClasses";
 
 // Font Awesome Style Sheet
 //import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -22,9 +22,6 @@ export default function App() {
       <Landing />
       <Projects />
       <Skills />
-
-      <FitnessInstructor />
-      <Testimonials />
       <Contact />
     </main>
   );
