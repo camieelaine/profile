@@ -18,10 +18,10 @@ export default function Projects() {
           <Icon name="self_improvement" size="xl" />
           {/* <Icon className="mx-auto inline-block w-10 mb-4" /> */}
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Recent Projects
+            Sample Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Below is some of my latest work.
+            See examples of my work.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
