@@ -16,7 +16,7 @@ export default function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-gray-600 mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base text-gray-500 text-left leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-xl text-gray-700 text-left leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Below are skills I have in my current toolbox.
           </p>
         </div>

@@ -1,8 +1,9 @@
 import React from "react";
 import Landing from "./components/Landing";
-import Contact from "./components/Contact";
+//import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import About from "./components/About";
+//import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 //import Testimonials from "./components/Testimonials";
@@ -20,9 +21,10 @@ export default function App() {
     <main className="text-white body-font">
       <Navbar />
       <Landing />
-      <Projects />
+      <About />
+      {/* <Projects /> */}
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
     </main>
   );
 }
